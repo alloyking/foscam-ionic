@@ -1,0 +1,15 @@
+<div class="movement_controls">
+  <button on-hold="up()" on-release="stop_up()" id="up-button" class="button button-clear button-positive">
+         <i class="ion-arrow-up-b"></i>
+  </button>
+  <button id="left-button" on-hold="right()" on-release="stop_right()" class="button button-clear button-positive">
+       <i class="ion-arrow-left-b"></i>
+  </button>
+  <button id="right-button" on-hold="left()" on-release="stop_left()" class="button button-clear button-positive">
+       <i class="ion-arrow-right-b"></i>
+  </button>
+  <button on-hold="down()" on-release="stop_down()" id="down-button" class="button button-clear button-positive">
+         <i class="ion-arrow-down-b"></i>
+  </button>
+  <iframe ng-src="{{command_url | trusted}}"></iframe>
+</div>

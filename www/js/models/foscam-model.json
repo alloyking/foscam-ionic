@@ -1,0 +1,23 @@
+{
+    "commands": [{
+        "decoder_control.cgi": {
+            "up": "command=0",
+            "stop_up": "command=1",
+            "down": "command=2",
+            "stop_down": "command=3",
+            "left": "command=4",
+            "stop_left": "command=5",
+            "right": "command=6",
+            "stop_right": "command=7"
+        }
+    }, {
+        "decoder_control.cgi": {
+            "ir_on": "command=95",
+            "ir_off": "command=94"
+        }
+    }, {
+        "videostream.cgi": {
+            "stream": ""
+        }
+    }]
+}

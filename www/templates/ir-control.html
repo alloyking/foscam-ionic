@@ -1,0 +1,9 @@
+<div class="ir_control">
+  <button on-tap="ir_on()"  id="ir-on-button" class="button button-clear button-positive">
+         <i class="ion-eye"></i>
+  </button>
+  <button id="ir-off-button" on-tap="ir_off()" class="button button-clear button-positive">
+       <i class="ion-eye-disabled"></i>
+  </button>
+  <iframe ng-src="{{command_url | trusted}}"></iframe>
+</div>

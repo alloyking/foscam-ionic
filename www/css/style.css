@@ -1,0 +1,70 @@
+.view-container .pane{
+    background-color: #000;
+}
+/* Empty. Add your own CSS if you like */
+iframe {
+    display: none;
+}
+ .video{
+
+ }
+
+#camera_output {
+    display: block;
+    margin: 0 auto;
+    width: 77%;
+    height: auto;
+
+}
+
+#left-button {
+    z-index: 999;
+    float: left;
+
+}
+
+#right-button {
+    z-index: 999;
+    float: right;
+
+}
+
+#up-button {
+    z-index: 999;
+    top: -40px;
+}
+
+#down-button {
+    z-index: 999;
+    left : 50px;
+    float: left;
+}
+.ir_control i {
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.ir_control {
+    padding: 0px, 0px, 0px, 0px;
+    position: absolute;
+    margin-top: 250px;
+    width: 75px;
+    margin-left: 70px;
+}
+
+.movement_controls i {
+    font-size: 67px;
+    opacity: 0.2;
+}
+
+.movement_controls {
+    margin-left: 70px;
+    padding: 0px, 0px, 0px, 0px;
+    position: absolute;
+    margin-top: 50px;
+    width: 160px;
+}
+
+.container {
+    position: relative;
+}
